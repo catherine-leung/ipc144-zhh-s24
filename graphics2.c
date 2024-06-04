@@ -16,22 +16,32 @@ example if width = 4 and height = 2 program draws:
 #include <stdio.h>
 
 int main(void){
-    int totalStars;
-    printf("please enter how many stars.  number must be positive: ");
-    scanf("%d",&totalStars);
-    while(totalStars <= 0){
+    int width;
+    int height;
+    printf("please enter width.  (1 to 80): ");
+    scanf("%d",&width);
+    while(width <= 0 || width>80){
         printf("that was not positive");
         printf("please enter a positive number: ");
-        scanf("%d",&totalStars);
+        scanf("%d",&width);
     }
-    
-    for(int i=0; i < totalStars ;i++){
-        printf("*");
-        if(i % 20 == 19){
-            printf("\n");
+
+    printf("please enter height.  (1 to 30): ");
+    scanf("%d",&height);
+    while(height <= 0 || height>30){
+        printf("that was not valid");
+        printf("please enter a valid number (1 to 30): ");
+        scanf("%d",&height);
+    }
+
+    for (int j=0;j<height;j++){
+        for(int i=0; i < width ;i++){
+            printf("*");
         }
-    }
-    if(totalStars%20 != 0){
         printf("\n");
     }
+
+
+
+
 }
