@@ -1,6 +1,16 @@
-/*Start with the printstar program.  Change the program so that only 20 stars 
-will be printed per line.  Thus if user enters 36, we will print 1 line with 20 
-starts then a line of 16 stars
+/*Read in 2 positive whole numbers.
+The first is the width of a rectangle (1 and 80)
+The second is the height of a rectangle (1 and 30)
+
+
+Draw a square of stars that is the dimensions entered
+example if width = 4 and height = 2 program draws:
+
+****
+****
+
+
+
 */
 
 #include <stdio.h>
