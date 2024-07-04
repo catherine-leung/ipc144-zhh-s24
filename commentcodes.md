@@ -11,4 +11,17 @@
 * J - result not printed 
 * K - inches is a whole number and should be declared and read as an int
 
+### Quiz 4
+
+* A - just show the small code blurb
+* B - declare and initialize means you can't use . notation as that would be setting the values of data members separately
+* C - this is really unclear and doesn't quite answer the question
+* D - this is initialization of the variable, not storing into existing variable.
+* E - this does not compare a struct against a parallel array
+* F - Answer is vague and lacks details.  saying it is good does not explain how
+* G - "efficient" has a meaning to it... is it faster?  does it use less memory... you can't say that structs are more efficient without support for this.
+* H - this does not answer the question being asked.
+* I - Writing needs more clarity..your answer is hinting at the correct answer but it doesn't express this answer clearly.
+* J - it looks like you are mixing up the name of a struct vs name of instance of a struct.  You have define your struct (this is where you define what a struct is made of).  This is a similar concept to defining your own data type.  Once you have that declare an instance of the struct.  This is where you create a variable who's data type is the struct you had defined.
+
   
