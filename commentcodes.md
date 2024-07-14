@@ -24,4 +24,15 @@
 * I - Writing needs more clarity..your answer is hinting at the correct answer but it doesn't express this answer clearly.
 * J - it looks like you are mixing up the name of a struct vs name of instance of a struct.  You have define your struct (this is where you define what a struct is made of).  This is a similar concept to defining your own data type.  Once you have that declare an instance of the struct.  This is where you create a variable who's data type is the struct you had defined.
 
+
+
+# test
+
+* A - do-while loops are **NOT GOOD** and should always be considered second best to a while. It is so less good that python didn't even bother implementing it.. that tells you that it is not a better choice!  There are some small situations where it is useful... but most of the time, **while** is the better choice! This example also has an error message that would not display on first iteration making do-whiles even less appropriate.
+* B - for loop is the preferred choice if it involves "counting", doing something n times, going through sequence like 1,2,3,4 etc.
+* C - answer does not answer question
+* D - answer does not explain why
+* F - for loop is for counting.  this situation is not "counting" or going through a sequence.  this is not what is happening here
+* G - an infinite loop is not appropriate here.  It breaks the single entry/exit principle and the only way out is to use a break (or return out of function).
+* H - answer is vague
   
